@@ -1,0 +1,4 @@
+class: edu.cmu.lti.oaqa.bio.core.keyterm.kb.MeshSynonymLookupper
+
+persistence-provider: |
+  inherit: jdbc.log.log-persistence-provider

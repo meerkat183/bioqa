@@ -1,0 +1,4 @@
+inherit: jdbc.db.experiment-persistence-provider
+url: "jdbc:mysql://rnumwd61rr7.nala.roche.com:3306/oaqa?autoReconnect=true"
+username: yangx2
+password: sterny18

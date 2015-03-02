@@ -1,0 +1,14 @@
+class: edu.cmu.lti.oaqa.bio.core.ie.IndriLegalSpanPassageExtractor
+hit-list-size: 10
+server: INDRI_URL 
+port: INDRI_PORT
+gzip: true
+cross-opts:
+  PassageSpan: [legalspan, sentence]
+  smoothing: [dirichlet, jelinek-mercer]
+  smoothing-mu: [2500] 
+  smoothing-lambda: [0.2] 
+  answer-type-weight: [0.2]
+
+persistence-provider: |
+  inherit: jdbc.log.log-persistence-provider

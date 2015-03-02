@@ -1,0 +1,12 @@
+class: edu.cmu.lti.oaqa.bio.framework.collection.DBCollectionReaderConsumer
+url: JDBC_CONNECTION_URL
+username: USERNAME
+password: PASSWORD
+
+decorators: |
+  - inherit: bioqa.collection.retrieval-gs-decorator
+  
+persistence-provider: |
+  inherit: bioqa.persistence.peace-persistence-provider
+  
+broker-url: tcp://URL:PORT

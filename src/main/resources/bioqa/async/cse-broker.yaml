@@ -1,0 +1,4 @@
+inherit: jdbc.async.async-config
+
+broker-url: tcp://URL:PORT
+timeout-multiplier: 10

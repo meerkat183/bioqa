@@ -1,0 +1,9 @@
+class: edu.cmu.lti.oaqa.bio.framework.report.DatabaseReportComponentBuilder
+keys: evaluator,traceId
+headers: Evaluator,Configuration,DocumentMAP,PassageMAP,Passage2MAP,AspectMAP,Count
+fields: evaluator,traceId,docmap,psgmap,psg2map,aspmap,count
+formats: "%s,%s,%.4f,%.4f,%.4f,%.4f,%d"
+
+query: |
+  SELECT evaluator,traceId,docmap,psgmap,psg2map,aspmap,count FROM map_eval 
+  WHERE experimentId = ? AND stage = ?

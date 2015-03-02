@@ -1,0 +1,5 @@
+class: edu.cmu.lti.oaqa.framework.eval.passage.PassageEvalConsumer
+name: passage-evaluator
+  
+aggregators: |
+  - inherit: bioqa.eval.passage-map-aggregator

@@ -1,0 +1,7 @@
+class: edu.cmu.lti.oaqa.bio.core.ie.rank.ScoreCombiner
+cross-opts:
+  DocWeight: [0.1, 0.2, 0.4, 0.8, 1]
+  TransformMode: [reciprocal_of_rank]
+
+persistence-provider: |
+  inherit: jdbc.log.log-persistence-provider

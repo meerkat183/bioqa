@@ -1,0 +1,13 @@
+class: edu.cmu.lti.oaqa.bio.core.retrieval.IndriRetrievalStrategist
+hit-list-size: 1000
+server: INDRI_URL
+port: INDRI_PORT
+gzip: true
+cross-opts:
+  smoothing: [jelinek-mercer, dirichlet]
+  smoothing-mu: [2500] 
+  smoothing-lambda: [0.3]   
+  answer-type-weight: [0]
+
+persistence-provider: |
+  inherit: jdbc.log.log-persistence-provider

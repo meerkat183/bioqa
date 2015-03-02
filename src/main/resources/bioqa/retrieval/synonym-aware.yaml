@@ -1,0 +1,8 @@
+class: edu.cmu.lti.oaqa.bio.core.retrieval.SynonymAwareRetrievalStrategist
+hit-list-size: 10
+server: INDRI_URL
+port: INDRI_PORT
+gzip: true
+
+persistence-provider: |
+  inherit: jdbc.log.log-persistence-provider

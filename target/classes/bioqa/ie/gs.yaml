@@ -1,0 +1,4 @@
+class: edu.cmu.lti.oaqa.cse.basephase.ie.GoldStandardPassageExtractor
+
+persistence-provider: |
+  inherit: jdbc.log.log-persistence-provider
