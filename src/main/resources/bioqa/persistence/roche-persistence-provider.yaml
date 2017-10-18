@@ -1,5 +1,6 @@
 inherit: jdbc.db.experiment-persistence-provider
-#RKAUSWEB098.kau.roche.com
+#Prod: RKAUSWEB098.kau.roche.com
+#Dev : GNELTSU6847D9F (10.36.12.156)
 url: "jdbc:mssql://10.115.73.153:1434/oaqa?autoReconnect=true"
 username: sa
 password: bioqa2017
