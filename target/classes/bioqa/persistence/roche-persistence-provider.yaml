@@ -1,4 +1,6 @@
 inherit: jdbc.db.experiment-persistence-provider
-url: "jdbc:mysql://rnumwd61rr7.nala.roche.com:3306/oaqa?autoReconnect=true"
-username: yangx2
-password: sterny18
+#url: "jdbc:mysql://rnumwd61rr7.nala.roche.com:3306/oaqa?autoReconnect=true"
+#2020-06-16 : new RBALVDEVOPS2 server in B1
+url: "jdbc:mysql://10.140.10.252:3306/oaqa?autoReconnect=true"
+username: jiangy3
+password: Chang2020!
